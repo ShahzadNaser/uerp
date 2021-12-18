@@ -12,13 +12,20 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+app_logo_url = '/assets/uerp/images/erp-icon.svg'
+
+website_context = {
+	"favicon": 	"/assets/uerp/images/erp-icon.svg",
+	"splash_image": "/assets/uerp/images/erp-icon.svg"
+}
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/uerp/css/uerp.css"
-# app_include_js = "/assets/uerp/js/uerp.js"
+app_include_js = ["/assets/uerp/js/web.js","/assets/js/uerp.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/uerp/css/uerp.css"
-# web_include_js = "/assets/uerp/js/uerp.js"
+web_include_js = ["/assets/uerp/js/web.js","/assets/js/uerp.js"]
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "uerp/public/scss/website"
